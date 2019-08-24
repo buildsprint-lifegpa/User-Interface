@@ -236,7 +236,7 @@ h3 {
 .container {
   width: 500px;
   background: #FFF8F0;
-  border: black solid 4px;
+  margin: 0 auto;
 }
 
 .top-image {
