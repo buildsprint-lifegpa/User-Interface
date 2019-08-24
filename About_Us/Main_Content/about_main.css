@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.aboutMainContainer {
+  width: 500px;
+  height: 500px;
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 100px;
+}
+
+.dream {
+
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #596b69;
+  margin-bottom: 15px;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.test p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.test img {
+  width: 150px;
+  height: 150px;
+  padding: 3%;
+}
+
+.test2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.test2 p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.test2 img {
+  width: 150px;
+  height: 150px;
+  padding: 3%;
+}
+
+.test3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.test3 p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.test3 img {
+  width: 150px;
+  height: 150px;
+  padding: 3%;
+}
