@@ -235,7 +235,7 @@ h3 {
 /*Begin custom CSS*/
 .container {
   width: 500px;
-  background: #FFF8F0;
+  background: #FCDBD4;
   margin: 0 auto;
 }
 
@@ -260,5 +260,15 @@ h3 {
   font-size: 30px; 
 }
 
-/*Begin Carousel code*/
+.bottom_img {
+  width: 100%;
+}
+
+.btn-warning {
+  margin-left: 120px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+}
 
