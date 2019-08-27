@@ -238,15 +238,17 @@ h3 {
 }
 
 .containerMain {
-  width: 500px;
+  max-width: 500px;
+  padding: 10px 1.25%;
   height: 800px;
   margin: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .header {
   display: flex;
-  width: 500px;
+  max-width: 500px;
+  padding: 1%;
   margin: auto;
   margin-top: 80px;
   margin-left: 20px;
@@ -263,7 +265,9 @@ h3 {
   margin-top: 50px;
   justify-content: flex-start;
   align-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
+  max-width: 100%;
+  padding: 1%;
 
 
 }
@@ -273,9 +277,10 @@ h3 {
 }
 
 .insideHeader p {
-  width: 80%;
+  max-width: 85%;
+  padding: 5%;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 1.5rem;
   font-weight: bold;
   font-style:bold;
   font-stretch: normal;
@@ -283,4 +288,30 @@ h3 {
   letter-spacing: normal;
   text-align: center;
   color: #596b69;
+}
+
+@media (min-width: 768px){
+  .containerMain {
+    max-width: 768px;
+    padding: 0 1% 0 0;
+    /* border: 1px solid blue; */
+  }
+
+  .header {
+    max-width: 768px;
+    padding: 1%;
+  }
+}
+
+@media (min-width: 1000px){
+  .containerMain {
+    max-width: 800px;
+    padding: 0 1% 0 0;
+    /* border: 1px solid green; */
+  }
+
+  .header {
+    max-width: 800px;
+    padding: 1%;
+  }
 }

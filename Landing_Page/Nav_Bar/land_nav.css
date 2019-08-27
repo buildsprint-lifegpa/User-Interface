@@ -240,7 +240,8 @@ h3 {
 
 .top-nav {
   display: flex;
-  width: 500px;
+  max-width: 500px;
+  padding: 1.25%;
   height: 50px;
   flex-direction: column-reverse;
   justify-content: center;
@@ -270,4 +271,21 @@ h3 {
 
 a:last-child {
   border: none;
+}
+
+
+@media (min-width: 768px){
+  .top-nav {
+    max-width: 768px;
+    padding: 0 1% 0 0;
+    /* border: 1px solid red; */
+  }
+}
+
+@media (min-width: 1000px){
+  .top-nav {
+    max-width: 800px;
+    padding: 0 1% 0 0;
+    /* border: 1px solid blue; */
+  }
 }

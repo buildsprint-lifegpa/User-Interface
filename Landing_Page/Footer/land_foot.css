@@ -241,8 +241,9 @@ h3 {
 
 footer {
   display: flex;
-  width: 500px;
-  height: 260px;
+  max-width: 500px;
+  padding: 0 1% 0 0;
+  height: 230px;
   margin: auto;
   margin-top: 30px;
   padding-top: 3%;
@@ -258,12 +259,26 @@ footer {
 footer img {
   display: flex;
   height: 90px;
-  width: 150px;
-  padding: 0px;
+  max-width: 150px;
+  padding: 1%;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .copyright {
   font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+  footer {
+    max-width: 768px;
+    padding: 1%;
+  }
+}
+
+@media (min-width: 1000px) {
+  footer {
+    max-width: 800px;
+    padding: 1%;
+  }
 }
