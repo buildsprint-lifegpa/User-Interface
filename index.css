@@ -282,9 +282,18 @@ a:last-child {
 }
 
 @media (min-width: 1000px){
+  .containerMain {
+    width: 800px;
+  }
+
   .top-nav {
     max-width: 800px;
     padding: 0 1% 0 0;
+  }
+
+  .mainImg {
+    max-width: 20%;
+    height: 50px;
   }
 }
 
@@ -413,6 +422,7 @@ a:last-child {
 
 /* Begin Media Queries*/
 
+/*Tablet View*/
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -436,6 +446,14 @@ a:last-child {
   .bottom_img {
     width: 450px;
     margin-left: 135px;
+  }
+}
+
+/*Desktop View*/
+@media (min-width: 1000px) {
+  footer {
+    max-width: 800px;
+    padding: 1%;
   }
 }
 /* <!-- MAIN SECTION end code here -->  */
