@@ -406,6 +406,7 @@ a:last-child {
   border-radius: 50px;
 }
 
+/* Begin Tablet Media Queries*/
 
 /* <!-- MAIN SECTION end code here -->  */
 
@@ -414,9 +415,9 @@ footer {
   display: flex;
   max-width: 500px;
   padding: 0 1% 0 0;
-  height: 230px;
+  height: 175px;
   margin: auto;
-  padding-top: 3%;
+  padding-top: 1%;
   padding-left: 2%;
   font-size: 2rem;
   flex-direction: column;
@@ -427,7 +428,7 @@ footer {
 
 footer img {
   display: flex;
-  height: 90px;
+  height: 75px;
   max-width: 150px;
   padding: 1%;
   margin-top: 0px;
@@ -436,6 +437,10 @@ footer img {
 
 .copyright {
   font-size: 1.3rem;
+  margin-top: -25px;
+  height: 20px;
+  display: flex;
+  justify-content: left;
 }
 
 @media (min-width: 768px) {

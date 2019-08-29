@@ -273,11 +273,5 @@ h3 {
   border-radius: 50px;
 }
 
-@media (min-width: 768px) {
-  body{
-    max-width: 768px;
-    padding: 0 1% 0 0;
-    height: 1300px;
-  }
-}
+
 
