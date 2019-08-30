@@ -15,6 +15,6 @@ Joshua Vandergriff
 Ali Sheikh
 
 ### Mobile Response Notes
-Mobile = 585px width
+Mobile = 500px width
 Tablet = 800px width
 Desktop = 1024px width 
