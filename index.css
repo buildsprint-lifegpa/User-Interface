@@ -283,7 +283,8 @@ a:last-child {
 
 @media (min-width: 1000px){
   .containerMain {
-    width: 800px;
+    width: 1000px;
+    /* Border: solid blue 3px; */
   }
 
   .top-nav {
