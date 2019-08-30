@@ -508,9 +508,10 @@ footer img {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   footer {
-    max-width: 800px;
+    width: 96.5%;
+    max-width: 1200px;
     padding: 1%;
   }
 }
