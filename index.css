@@ -281,10 +281,15 @@ a:last-child {
   }
 }
 
-@media (min-width: 1000px){
+/* @media (min-width: 1000px){
+
+  .header {
+    border: solid red 3px;
+    width: 1000px;
+  }
   .containerMain {
     width: 1000px;
-    /* Border: solid blue 3px; */
+    Border: solid blue 3px;
   }
 
   .top-nav {
@@ -296,7 +301,7 @@ a:last-child {
     max-width: 20%;
     height: 50px;
   }
-}
+} */
 
 .containerMain {
   max-width: 500px;
