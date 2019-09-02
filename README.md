@@ -17,4 +17,4 @@ Ali Sheikh
 ### Mobile Response Notes
 Mobile = 500px width
 Tablet = 800px width
-Desktop = 1024px width 
+Desktop = 1040px width 
