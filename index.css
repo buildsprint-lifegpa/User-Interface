@@ -393,10 +393,6 @@ a:last-child {
   color: #a6a8ab;
 }
 
-p {
-   width: 700px;
-}
-
 .attention_caller p {
   display: flex;
   justify-content: center;
@@ -459,7 +455,7 @@ p {
   }
 
   .main_paragraph_content {
-    width: 800px;
+    width: 825px;
   }
 
   .bottom_img {
