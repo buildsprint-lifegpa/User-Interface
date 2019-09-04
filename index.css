@@ -393,6 +393,10 @@ a:last-child {
   color: #a6a8ab;
 }
 
+p {
+   width: 700px;
+}
+
 .attention_caller p {
   display: flex;
   justify-content: center;
